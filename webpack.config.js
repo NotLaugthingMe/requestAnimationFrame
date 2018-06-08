@@ -4,7 +4,7 @@
 
 const path = require('path');
 const webpack = require('webpack');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = function () {
     return {
         devtool: false,
@@ -28,9 +28,6 @@ module.exports = function () {
             ]
         },
         plugins:[
-            new webpack.DefinePlugin({
-                'process.env.NODE_ENV': JSON.stringify('production')
-            }),
             new UglifyJsPlugin({
                 uglifyOptions: {
                     // 最紧凑的输出
