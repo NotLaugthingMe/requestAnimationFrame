@@ -1,0 +1,25 @@
+{
+  "name": "requestAnimationFrame",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "repository": "https://github.com/NotLaugthingMe/requestAnimationFrame.git",
+  "author": "Derrick <derrick@kucoin.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "push": "npm publish"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-minify-dead-code-elimination": "^0.4.3",
+    "babel-plugin-transform-imports": "^1.5.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3"
+  }
+}

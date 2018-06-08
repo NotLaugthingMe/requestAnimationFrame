@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["env",{
+      "modules":false
+    }],
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "minify-dead-code-elimination"
+  ]
+}
